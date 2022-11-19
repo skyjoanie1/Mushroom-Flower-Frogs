@@ -1,0 +1,162 @@
+<!--Skylar Baumgartner-->
+<!--Create an HTML page that uses tables for a layout and also another table to display data.-->
+<!--The page should have a header, a footer, a left navigation bar, and a main content area. -->
+<!--The main content area should have a table that displays data. -->
+<!--for this page, the data for the table will be hard coded-->
+<!--This site will be about Frogs resting on Mushrooms-->
+<!--we will be adding our HTML tag for our website-->
+<!--Skylar Baumgartner-->
+<!DOCTYPE html>
+<html>
+<!--Head section is where you put information about the page-->
+
+<head>
+    <!--This is the title thatll be in the tab of the website in browser-->
+    <title> Mushroom Kingdom </title>
+</head>
+<!--Body section is where you put the content of the page-->
+
+<body>
+    <!--This is the header of the site-->
+    <header>
+        <h1> No Princess At This Castle! </h1>
+        <!--create our .css section here -->
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            /*css for the header*/
+            header {
+                background-color: seagreen;
+                color: black;
+                text-align: center;
+                padding: 5px;
+            }
+
+            /*css for the footer*/
+            footer {
+                background-color: seagreen;
+                color: black;
+                clear: left;
+                text-align: center;
+                padding: 5px;
+            }
+
+            /*css for the Navigation Bar*/
+            nav {
+                line-height: 30px;
+                background-color: rgb(53, 133, 42);
+                height: 825px;
+                width: 125px;
+                float: left;
+                padding: 5px;
+            }
+
+            /*this is the css for the main content area*/
+            section {
+                width: 350px;
+                float: left;
+                padding: 10px;
+            }
+
+            /**/
+            table,
+            th,
+            td {
+                border: 1px solid rgb(0, 0, 0);
+                background-color: rgb(141, 197, 155)
+            }
+
+            /*This is so I can add pictures with descriptions*/
+            div.gallery {
+                margin: 5px;
+                border: 1px solid rgb(0, 0, 0);
+                float: left;
+                width: 180px;
+            }
+
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+            div.desc {
+                padding: 15px;
+                text-align: center;
+            }
+        </style>
+    </header>
+    <!--This is the left navigation bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Flowers.html">Flower Hats</a></li>
+            <li><a href="Toads.html">Toads</a></li>
+            <li><a href="ToadxMario.html">No Princess At This Castle!</a></li>
+        </ul>
+    </nav>
+    <!--This is the main content area-->
+    <main>
+        <h2> Toad!! </h2>
+        <!--This is the table that will hold our data-->
+        <!--<tr> tags go across and the <th> & <td> tags go down-->
+        <table>
+            <!--This is the header row for our table-->
+            <!--The header row is where we put the column names-->
+            <!--Each row has a start <tr> and ends with a </tr> tag-->
+            <!--This <tr> tag stands for one table row>-->
+            <tr>
+                <!--<th> means Tabes Header-->
+                <th>Toad Name</th>
+                <th>Kingdom</th>
+                <th>Friends</th>
+                <th>Class</th>
+                <th>Color</th>
+            </tr>
+            <tr>
+                <!--<td> means Table Data, this is the one thatll be used the most in a table-->
+                <td>Toad</td>
+                <td>Mushroom Kingdom</td>
+                <td>Toadette, Mario, Luigi, Princess Peach</td>
+                <td>Royal Protector</td>
+                <td>White, Red</td>
+            </tr>
+            <tr>
+                <!--<td> means Table Data, this is the one thatll be used the most in a table-->
+                <td>Toadette</td>
+                <td>Mushroom Kingdom</td>
+                <td>Toad, Mario, Luigi, Princess Peach</td>
+                <td>Supporting</td>
+                <td>Pink, White</td>
+            </tr>
+        </table>
+        <!--Break-->
+        <br></br><br></br>
+        <div class="gallery">
+            <a target="" href="Toadette.png">
+                <img src="Toadette.png" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Toadette!</div>
+        </div>
+        <div class="gallery">
+            <a target="" href="Toad.png">
+                <img src="Toad.png" alt="Cinque Terre"
+                    width="600" height="400">
+            </a>
+            <div class="desc">Toad!</div>
+        </div>
+    </main>
+    <footer>
+        <p>Created By: <a href="skybaumg@uat.edu"> Skylar Baumgartner</a></p>
+        <p>Page created on: <time datetime="2022-11-18">November, 18th, 2022</time></p>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+</DOCTYPE>
